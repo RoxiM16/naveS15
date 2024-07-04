@@ -1,6 +1,6 @@
 var Terminado ={
 	preload: function () {
-		juego.load.image('fondo', '.img/bg.png');
+		juego.load.image('fondo', './img/bg.png');
 	},
 
 	create: function(){
