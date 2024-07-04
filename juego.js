@@ -11,12 +11,12 @@ var txtVidas;
 
 var Juego={
 	preload: function () {
-		juego.load.image('nave','.img/nave.png');
-		juego.load.image('laser','.img/laser.png');
-		juego.load.image('malo','.img/malo.png');
-		juego.load.image('bg','.img/bg.png');
-		juego.load.audio('disparo', '.sonidos/disparo.mp3');
-        juego.load.audio('explosion', '.sonidos/explosion.mp3');
+		juego.load.image('nave','./img/nave.png');
+		juego.load.image('laser','./img/laser.png');
+		juego.load.image('malo','./img/malo.png');
+		juego.load.image('bg','./img/bg.png');
+		juego.load.audio('disparo', './sonidos/disparo.mp3');
+        juego.load.audio('explosion', './sonidos/explosion.mp3');
 	},
 
 	create: function(){
